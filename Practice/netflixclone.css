@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+header{
+    width: 100%;
+    height: 700px;
+    background-image: url(background\ images.jpg);
+}
+.firstline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.logo{
+    font-size: 23px;
+    color: red;
+}
+#lang{
+    font-size: 18px;
+    margin: 10px;
+    padding: 5px 15px;
+    font-weight: 500;
+    background-color: rgb(48, 47, 47);
+    color: white;
+    border-radius: 5px;
+}
+button{
+    font-size: 14px;
+    margin: 10px;
+    padding: 5px 15px;
+    font-weight: 600;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+.word{
+    width: 50%;
+    margin: 0 auto;
+    color: #fff;
+    margin-top: 90px;
+    text-align: center;
+}
+.word>h1{
+    font-size: 70px;
+    font-weight: 900;
+}
+.word>h3{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 10px;
+}
+.word>p{
+    font-size: 20px;
+}
+.login{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+input{
+    margin: 20px;
+    padding: 15px 50px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(50, 49, 49);
+    border-radius: 5px;
+}
+#Get{
+    /* margin: 10px; */
+    padding: 16px 30px;
+    font-size: 22px;
+}
+.full{
+    
+}
